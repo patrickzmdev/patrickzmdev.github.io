@@ -1,0 +1,138 @@
+:root{
+  --background-color:#4abdac;
+  --background-color-secundary:#fc4a1a;
+  --text-color:#dfdce3;
+  --others-colors:#f7b733;
+}
+
+#page-top{
+  position: fixed;
+  display: flex;
+  width: 100%;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  background-color: var(--others-colors);
+  z-index: 1000;
+
+}
+
+#page-top img{
+  width: 8rem;
+  margin-left: 1rem;
+}
+
+
+
+#sidebar-wrapper {
+  overflow: hidden;
+  position: fixed;
+  z-index: 2;
+  margin-top: 23rem;
+  right: 0;
+  width: 4rem;
+  height: 20rem;
+  transition: all 0.4s ease 0s;
+  transform: translateX(250px);
+  background-color: var(--others-colors);
+}
+
+#sidebar-wrapper.active {
+  right: 12rem;
+  width: 8%;
+  transition: all 0.4s ease 0s;
+}
+
+.sidebar-nav {
+  position: absolute;
+  top: 0;
+  width: 6rem;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  font-family: "Pacifico", cursive;
+  font-size: 1rem;
+  color: #fff;
+}
+
+.sidebar-nav li.sidebar-nav-item a {
+  display: block;
+  text-decoration: none;
+  opacity: 1;
+  font-size: 1rem;
+  padding: 1rem;
+}
+
+.sidebar-nav li.sidebar-nav-item span {
+  color: var(--text-color);
+  font-weight: bold;
+}
+
+.sidebar-nav li a:hover {
+  text-decoration: none;
+  background: var(--background-color-secundary);
+}
+
+.icons-container{
+  margin-right: 2.8rem;
+  width: 10%;
+  display: flex;
+  flex-direction: row;
+  justify-content:space-around;
+}
+
+#bars{
+  font-size: 1.5rem;
+  color: white;
+  cursor: pointer;
+  z-index: 1100;
+}
+
+#bars:hover{
+
+  transform: rotate(360deg) scale(1.1);
+  transition: 1s;
+}
+
+.sun{
+  color: yellow;
+  font-size: 1.8rem;
+  cursor: pointer;
+
+}
+
+.sun:hover{
+  transform:rotate(360deg);
+  font-size: 2rem;
+  transition: 8s;
+}
+
+.moon{
+  color: gray;
+  font-size: 1.8rem;
+  cursor: pointer;
+}
+
+.moon:hover{
+  font-size: 2rem;
+  transition: 5s;
+}
+
+@media (max-width: 1200px) {
+  #sidebar-wrapper.active {
+    margin-right: 4.5rem;
+    width: 6rem;
+  }
+}
+
+@media (max-width: 768px) {
+  #sidebar-wrapper.active {
+    margin-right: 5rem;
+  }
+}
+
+@media (max-width: 540px) {
+  #sidebar-wrapper.active {
+    margin-right: 4.5rem;
+  }
+}
