@@ -26,45 +26,45 @@ function Skills() {
     <h2 className='title-page'>Minhas Habilidades</h2>
     <div className='container-skills'>
 
-      <div class="icons">
-        <div class="icon-container">
-          <i class="devicon-python-plain-wordmark colored single-item clickable"
+      <div className="icons">
+        <div className="icon-container">
+          <i className="devicon-python-plain-wordmark colored single-item clickable"
           onClick={() => toggleText('Python')}
 
           ></i>
         </div>
-        <div class="icon-container">
-          <i class="devicon-react-original colored single-item clickable"
+        <div className="icon-container">
+          <i className="devicon-react-original colored single-item clickable"
           onClick={() => toggleText('React')}
 
           ></i>
         </div>
         <div className='icon-container'>
-          <i class="devicon-figma-plain colored single-item clickable"
+          <i className="devicon-figma-plain colored single-item clickable"
           onClick={() => toggleText('Figma')}
 
           ></i>
         </div>
         <div className='icon-container'>
-          <i class="devicon-git-plain colored single-item clickable"
+          <i className="devicon-git-plain colored single-item clickable"
           onClick={() => toggleText('Git')}
 
           ></i>
         </div>
-        <div class="icon-container">
-          <i class="devicon-html5-plain-wordmark colored single-item clickable"
+        <div className="icon-container">
+          <i className="devicon-html5-plain-wordmark colored single-item clickable"
           onClick={() => toggleText('Html')}
 
           ></i>
         </div>
-        <div class="icon-container">
-          <i class="devicon-css3-plain-wordmark colored single-item clickable"
+        <div className="icon-container">
+          <i className="devicon-css3-plain-wordmark colored single-item clickable"
           onClick={() => toggleText('Css')}
 
           ></i>
         </div>
-        <div class="icon-container">
-          <i class="devicon-javascript-plain colored single-item clickable"
+        <div className="icon-container">
+          <i className="devicon-javascript-plain colored single-item clickable"
           onClick={() => toggleText('Javascript')}
 
           ></i>
