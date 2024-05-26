@@ -11,7 +11,7 @@ function Skills() {
   };
 
   const textMappings = {
-    'Python': 'O Python é uma linguagem de programação de alto nível, interpretada e de propósito geral. Foi criada por Guido van Rossum e lançada pela primeira vez em 1991. ...',
+    'Java': 'Como linguagem de programação, o código Java é baseado em classes e orientado a objetos, com foco em segurança, portabilidade e alta performance.',
     'React': 'React JS é uma biblioteca JavaScript para a criação de interfaces de usuário — ou UI (user interface). Criado em 2011 pelo time do Facebook.',
     'Figma': 'Figma é um editor gráfico de vetor e prototipagem de projetos de design baseado principalmente no navegador web.',
     'Git': 'O Git é um sistema de controle de versão distribuído gratuito e de código aberto projetado para lidar com tudo, desde pequenos até Projetos muito grandes com rapidez e eficiência.',
@@ -28,8 +28,8 @@ function Skills() {
 
       <div className="icons">
         <div className="icon-container">
-          <i className="devicon-python-plain-wordmark colored single-item clickable"
-          onClick={() => toggleText('Python')}
+          <i className="devicon-java-plain-wordmark colored single-item clickable"
+          onClick={() => toggleText('Java')}
 
           ></i>
         </div>
